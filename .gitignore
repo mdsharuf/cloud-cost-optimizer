@@ -3,3 +3,21 @@ __pycache__/
 *.zip
 *.pyc
 .env
+# Python virtual env
+.venv/
+
+# Build artifacts
+__pycache__/
+*.zip
+
+# Lambda dependencies
+lambda/boto3*
+lambda/botocore*
+lambda/s3transfer*
+lambda/dateutil*
+lambda/jmespath*
+lambda/python_dateutil*
+lambda/urllib3*
+lambda/six*
+lambda/bin/
+lambda/*.dist-info/
