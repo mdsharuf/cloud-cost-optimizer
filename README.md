@@ -11,7 +11,7 @@ This project demonstrates **real-world AWS automation** and **FinOps concepts** 
 
 ## 🧩 Architecture  
 
-![Architecture](screenshots/Architecture.png)
+![Architecture](Architecture.png)
 
 ### Flow:
 1. **EventBridge (Scheduler)** triggers the Lambda every morning at **9:00 AM IST**.  
@@ -86,7 +86,7 @@ Upload your `lambda_package.zip` under **Code → Upload from → .zip file**.
 | `COST_TAG_KEY` | `scro:hourly_usd` | Optional — hourly cost tag |
 
 **Screenshot Example:**
-![Environment Variables](screenshots/Screenshot%20from%202025-10-15%2021-56-23.png)
+![Environment Variables](Screenshot%20from%202025-10-15%2021-56-23.png)
 
 ---
 
